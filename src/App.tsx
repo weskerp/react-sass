@@ -1,5 +1,6 @@
+import React from "react";
 import MainContent from "./componentes/MainContent"
-import Sidebar from "./componentes/sidebar"
+import Sidebar from "./componentes/Sidebar"
 
 import "./styles/componentes/app.sass"
 
