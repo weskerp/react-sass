@@ -40,7 +40,7 @@ const PrincipalProjectContainer = () => {
             <div className="principal-projeto-card" id={projeto.id} key={projeto.id}>
               <div className="principal-projeto-info">
                 <h3>{projeto.name}</h3>
-                <a href={projeto.url}>
+                <a href={projeto.url} target="_blanck">
                   <img src={projeto.foto} alt={projeto.name} />
                 </a>
                 <p>{projeto.descricao}</p>
