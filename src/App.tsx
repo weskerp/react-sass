@@ -1,6 +1,5 @@
-import React from "react";
-import MainContent from "./componentes/MainContent"
-import Sidebar from "./componentes/Sidebar"
+// import MainContent from "./componentes/MainContent"
+// import Sidebar from "./componentes/Sidebar"
 
 import "./styles/componentes/app.sass"
 
@@ -8,8 +7,8 @@ function App() {
   return (
     <div id="portifolio">
       <h1>Iago Nogueira</h1>
-      <Sidebar />
-      <MainContent />
+      {/* <Sidebar />
+      <MainContent /> */}
     </div>
   )
 }
