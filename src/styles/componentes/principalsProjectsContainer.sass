@@ -1,0 +1,89 @@
+.principal-projeto-container
+  position: relative;
+  .carousel
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+
+    .carousel-content
+      display: flex;
+      transition: transform 0.5s ease;
+    
+
+    .principal-projeto-card
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 8px;
+        img 
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        .principal-projeto-info
+            p
+                color: #000
+                background: rgba(0,0,0,0.6)
+                font-weight: 400
+            p:hover
+                color: #fff
+                background: rgba(0,0,0,0.8)
+                font-weight: 700
+
+
+
+
+    /* Navigation buttons */
+    .carousel-btn 
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      border: none;
+      padding: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 10;
+
+      &.prev 
+        left: 10px;
+      
+
+      &.next 
+        right: 10px;
+      
+
+      &:hover 
+        background-color: rgba(0, 0, 0, 0.7);
+    
+.thumbnail-container
+    display: flex
+    justify-content: center
+    margin-top: 20px
+    gap: 10px
+    cursor: pointer
+
+.thumbnail
+    width: 60px
+    height: 60px
+    object-fit: cover
+    border-radius: 8px
+    opacity: 0.6
+    transition: opacity 0.3s ease, transform 0.3s ease
+
+.thumbnail:hover
+    opacity: 1
+    transform: scale(1.1)
+    font-weight: 700 !important
+
+.selected-thumbnail
+    opacity: 1
+    transform: scale(1.1)
+    font-weight: 700 !important
+    
+  
+
