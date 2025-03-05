@@ -13,15 +13,16 @@ import {
 import "../styles/componentes/technologiescontainer.sass"
 
 const technologies = [
-  { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-  { id: "css", name: "CSS3", icon: <DiCss3 /> },
-  { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-  { id: "node", name: "Node.js", icon: <DiNodejs /> },
-  { id: "mysql", name: "MySQL", icon: <DiMysql /> },
-  { id: "react", name: "React", icon: <DiReact /> },
-  { id: "laravel", name: "Laravel", icon: <DiLaravel /> },
-  { id: "php", name: "PHP", icon: <DiPhp /> },
-]
+  { id: "html", name: "HTML5", icon: <DiHtml5 />, label: "Linguagem de marcação usada para estruturar páginas web." },
+  { id: "css", name: "CSS3", icon: <DiCss3 />, label: "Estilização de páginas web, incluindo layouts, cores e animações." },
+  { id: "js", name: "JavaScript", icon: <DiJsBadge />, label: "Linguagem de programação para interatividade em páginas web." },
+  { id: "node", name: "Node.js", icon: <DiNodejs />, label: "Ambiente para executar JavaScript no servidor, usado para APIs e aplicações escaláveis." },
+  { id: "mysql", name: "MySQL", icon: <DiMysql />, label: "Banco de dados relacional usado para armazenar e gerenciar informações." },
+  { id: "react", name: "React", icon: <DiReact />, label: "Biblioteca JavaScript para construção de interfaces de usuário reativas." },
+  { id: "laravel", name: "Laravel", icon: <DiLaravel />, label: "Framework PHP para desenvolvimento de aplicações web robustas e escaláveis." },
+  { id: "php", name: "PHP", icon: <DiPhp />, label: "Linguagem de programação para desenvolvimento web e sistemas backend." }
+];
+
 const TechnologiesContainer = () => {
   return (
     <section className="technologies-container">
@@ -33,7 +34,7 @@ const TechnologiesContainer = () => {
             <div className="technology-info">
               <h3>{tech.name}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                {tech.label}
               </p>
             </div>
           </div>

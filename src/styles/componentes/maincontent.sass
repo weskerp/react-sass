@@ -22,7 +22,6 @@
     &::after
       @include mixins.gradiente-border
       
-      
   p
     color: variables.$text-color-secundary
     margin-bottom: 1rem
@@ -31,3 +30,6 @@
   .btn
     @include mixins.btn
     align-self: start
+@media screen and (max-width: 768px)
+  #main-content
+    width: 80%
