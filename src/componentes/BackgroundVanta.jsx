@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import BIRDS from "vanta/dist/vanta.birds.min";
-import * as THREE from "three"; // Importa a biblioteca necessária
+import * as THREE from "three";
 
 const BackgroundVanta = () => {
   const [vantaEffect, setVantaEffect] = useState(null);
@@ -10,7 +10,7 @@ const BackgroundVanta = () => {
     if (!vantaEffect) {
       setVantaEffect(
         BIRDS({
-          el: backgroundRef.current, // Aplica o efeito na div
+          el: backgroundRef.current,
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
@@ -26,7 +26,7 @@ const BackgroundVanta = () => {
     }
 
     return () => {
-      if (vantaEffect) vantaEffect.destroy(); // Remove o efeito ao desmontar o componente
+      if (vantaEffect) vantaEffect.destroy(); 
     };
   }, [vantaEffect]);
 
