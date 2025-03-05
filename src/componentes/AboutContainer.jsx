@@ -1,5 +1,6 @@
 import React from "react"
-import "../styles/componentes/AboutContainer.sass"
+import "../styles/componentes/aboutContainer.sass"
+
 
 const AboutContainer = () => {
   return (
