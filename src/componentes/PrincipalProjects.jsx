@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "../styles/componentes/principalsProjectsContainer.sass";
 import project1 from "../img/project1.png";
-import project2 from "../img/project2.jpg";
-import project3 from "../img/project3.jpg";
+import project2 from "/landing-page-medica.png";
+import project3 from "/memory-game.png";
 import project4 from "../img/project4.jpg";
 
 const projetos = [
   { id: "sistema-vendas", name: "Sistema de Vendas", foto: project1, url: "https://sistema-vendas-production.up.railway.app", descricao: 'Projeto de sistema de vendas baseado em Laravel' },
-  { id: "sistema-vendas2", name: "Sistema de Vendas2", foto: project2, url: "#" },
-  { id: "sistema-vendas3", name: "Sistema de Vendas3", foto: project3, url: "#" },
+  { id: "sistema-vendas2", name: "Landing Page Médica", foto: project2, url: "https://landingpage-medica-veeb-9fxhkkqwc-weskerps-projects.vercel.app" },
+  { id: "sistema-vendas3", name: "Jogo da Memoria", foto: project3, url: "https://memory-game-8aejce1hj-weskerps-projects.vercel.app" },
   { id: "sistema-vendas4", name: "Sistema de Vendas4", foto: project4, url: "#" },
 ];
 
