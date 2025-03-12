@@ -7,8 +7,8 @@ import project4 from "../img/project4.jpg";
 
 const projetos = [
   { id: "sistema-vendas", name: "Sistema de Vendas", foto: project1, url: "https://sistema-vendas-production.up.railway.app", descricao: 'Projeto de sistema de vendas baseado em Laravel' },
-  { id: "sistema-vendas2", name: "Landing Page Médica", foto: project2, url: "https://landingpage-medica-veeb-9fxhkkqwc-weskerps-projects.vercel.app" },
-  { id: "sistema-vendas3", name: "Jogo da Memoria", foto: project3, url: "https://memory-game-8aejce1hj-weskerps-projects.vercel.app" },
+  { id: "sistema-vendas2", name: "Landing Page Médica", foto: project2, url: "https://landingpage-medica.vercel.app" , descricao: 'Landing page médica feira com react e next.js'},
+  { id: "sistema-vendas3", name: "Jogo da Memoria", foto: project3, url: "https://memory-game-gamma-blond.vercel.app" , descricao: 'Jogo da memória feito com JavaScript, HTML e CSS'},
   { id: "sistema-vendas4", name: "Sistema de Vendas4", foto: project4, url: "#" },
 ];
 
